@@ -36,6 +36,38 @@
     cursor: pointer;
 }
 
+.task-show{
+    border: 1px solid green;
+    border-radius: 30px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.task-show button{
+    padding: 5px;
+    font-size: 15px;
+    width: 70px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-right: 15px;
+    background-color: rgb(87, 87, 4);
+}
+
+.task-show h3{
+    margin-bottom: 5px;
+}
+
+.task-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .task-create{
     width: 450px;
 }
