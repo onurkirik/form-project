@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.task-update{
+    width: 100%;
+}
+
 .task-form{
     display: flex;
     flex-direction: column;
